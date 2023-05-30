@@ -1,52 +1,70 @@
-# KidsPlaza Frontend Tests 
+# Getting Started with Create React App
 
-## Introduction
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Create a sign-up, sign-in pages for a kids plaza account. The main user of this page will be a mobile user. 
-The page should be responsive and work on mobile devices and dekstops.
-The page allows the user to create an account and login to the account.
+## Available Scripts
 
-## Requirements
+In the project directory, you can run:
 
-### Technical
+### `npm start`
 
- - The page should be a single page application written in the latest version of Angular or React.
- - The page should be written in Typescript.
- - Components should be written in a modular way.
- - A CSS framework may be used. No preference from our side.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Functional
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
- - A user can fill out a form with his firstname, lastname and email address.
- - A user can add a picture by clicking in the dropzone or by dragging a picture into the dropzone.
- - A mobile user can click the dropzone to open the camera and take a picture.
- - A user can click the checkbox to accept the terms and conditions.
- - A user can click on the "Terms" link to open the terms and conditions in a new tab.
- - A user can submit the form only if all fields are filled out, a picture is added and the checkbox is checked.
- - A user is redirected to the two factor page after submitting the form.
- - A user can fill out the two factor form with the code that was sent to his email address.
- - A user can click on the "kidsplaza.vn" logo in the header to open kidsplaza.vn in a new tab.
- - A user sees a loading indicator when submitting the form.
- - A user sees an error message if the form submission fails.
+### `npm test`
 
-### Validation
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The validation of the form should be done in the frontend. The following rules should be applied:
- - The firstname and lastname fields should only allow letters and spaces. Maximum length is 190 characters.
- - The email field should only allow valid email addresses. Maximum length is 190 characters.
- - The picture field should only allow pictures with a maximum size of 100MB.
- - The terms and conditions checkbox should be checked.
+### `npm run build`
 
-### Design
-![Login Desktop](images/login-desktop.png "Login Desktop")
-![Login Mobile](images/login-mobile.png "Login Mobile")
-![Sign Up Desktop](images/sign-up-desktop.png "Sign Up Desktop")
-![Sign Up Mobile](images/sign-up-mobile.png "Sign Up Mobile")
-![Two Factor Desktop](images/two-factor-desktop.png "Two Factor Desktop")
-![Two Factor Mobile](images/two-factor-mobile.png "Two Factor Mobile")
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
- - The background image is set to cover the whole screen.
- - The page should be responsive and work on mobile devices and dekstops.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## API
-Use mockup API backend to test your code.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
